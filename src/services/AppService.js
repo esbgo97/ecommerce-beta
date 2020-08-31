@@ -4,7 +4,7 @@ class AppService {
 
     createUser = (user) => {
         this.fb.auth().createUserWithEmailAndPassword(user.username, user.password).then((resp)=> {
-            console.log(resp);
+            console.log('test');
         });
     }    
 }
